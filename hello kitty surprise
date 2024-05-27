@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hey Alondra!</title>
+    <style>
+        body {
+            background-color: #ffebcd;
+            font-family: 'Comic Sans MS', sans-serif;
+            color: #ff69b4;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .hello-kitty {
+            width: 150px;
+            height: auto;
+            margin: 20px 0;
+        }
+        h1 {
+            font-size: 3em;
+        }
+        p {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+        .heart {
+            color: red;
+        }
+        .signature {
+            font-style: italic;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://www.sanrio.com/cdn/shop/files/ecomm-CHGAL-50TH_367x353px_01-HK_1000x.png?v=1706834552" alt="Hello Kitty" class="hello-kitty">
+        <h1>HEYYY LOLABEAR JELLY WELLY BEAN!</h1>
+        <p>You know, you're kind of like Hello Kitty</p>
+        <p>Except, you know, real... and you don't have a bow on your head (yet teehee)</p>
+        <p>But seriously, you're pawsitively purrfect baby ;)</p>
+        <p>And if you were a cartoon, you'd definitely be my favorite character :D</p>
+        <p>Thanks for being my babygurl in crime (you're catwoman and im batman) and making life a whole lot more fun :)</p>
+        <p class="signature">Love, the SEXIEST and TALLEST and SMARTEST guy in your dms (peanut)</p>
+    </div>
+</body>
+</html>
