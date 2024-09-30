@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Alondra</title>
+    
+    <!-- Inline CSS for W3Schools -->
+    <style>
+        body {
+            background-color: #ffe4e1;
+            font-family: 'Arial', sans-serif;
+            color: #d63384;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        header h1 {
+            color: #ff69b4;
+            font-size: 3em;
+            margin-top: 20px;
+        }
+
+        .hello-kitty-section img {
+            width: 300px;
+            height: auto;
+            margin-top: 20px;
+        }
+
+        .message-section p {
+            background-color: #fff0f5;
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 1.5em;
+            line-height: 1.6;
+            margin-top: 20px;
+        }
+
+        .heart-section {
+            margin: 40px 0;
+        }
+
+        .heart {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background-color: #ff1493;
+            clip-path: polygon(50% 0%, 0% 35%, 25% 100%, 75% 100%, 100% 35%);
+            animation: heartbeat 1.5s infinite ease-in-out;
+            margin: 0 10px;
+        }
+
+        @keyframes heartbeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.3);
+            }
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-size: 1.2em;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ff1493;
+        }
+
+        footer p {
+            font-size: 1.2em;
+            margin: 20px 0;
+            color: #ff69b4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Alondra, You Mean the World to Me</h1>
+        </header>
+        
+        <section class="hello-kitty-section">
+            <img src="https://images.fineartamerica.com/images/artworkimages/medium/3/hello-kitty-and-dear-daniel-valentine-peru-luka-transparent.png" alt="Hello Kitty Image">
+        </section>
+
+        <section class="message-section">
+            <p>
+                Dear Jelly,<br>
+                I want you to know and remember that you are the only one for me. I'm sorry for causing doubts and troubles in your heart again with the Discord stuff. I was feeling too pressured, which led me into a hole deciding not to do it.
+                And I know you must've been like, "Well why are you pressured if you got nothing to hide?" Which makes sense, it would've made me shaky of your actions too. But I'm trying to both tell and demonstrate to you that nothing there had anything to do with cheating, and was more of me not wanting to dive in and possibly having to explain the type of guy I was/people I associated with were.
+                If you remember on the phone, I wasn't nervous about Screensharing Instagram or Messages or Calls or any other app. It was specifically you saying Discord that triggered the reaction within me because I haven't even thought about the negative things or negative people I associated with on there. I swore to you that night and still swear and promise to you now, that there are no acts of cheating or dishonesty going on there. I'm sorry again for everything.
+                I'm not the cutest guy, most emotionally stable guy, most secure guy, or even the smartest guy. In fact, I had AI helped me a good bit with this page. But in the end, I'm always willing and wishing to come to a common understanding with you, for the sake of both of us. For the sake of our future. Even after this, there still will probably be times that we disagree with each other, but I will never stop fighting for you, Alondra Vielmas. I love you so much. <br>
+                You are my one and only, now and forever. No thing, no time, no object, no person will ever stop that feeling in my heart. 💖
+            </p>
+        </section>
+        <section class="button-section">
+            <!-- Button to show the hidden song -->
+            <button onclick="showSong()">Tap to Reveal a Special, Classic Song</button>
+        </section>
+
+        <!-- Hidden Song Section -->
+        <section class="music-section" id="music-section" style="display: none;">
+            <h2>🎶</h2>
+            <iframe width="560" height="202" src="https://www.bandlab.com/embed/?id=bc1c4916-813d-ef11-86c3-000d3a42581b" allowfullscreen></iframe>
+        </section>
+
+
+        <section class="heart-section">
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+        </section>
+
+        <section class="button-section">
+            <button onclick="reassureMessage()">Click for a Special Message</button>
+        </section>
+
+        <footer>
+            <p>Made with love for my Jellybean 💕</p>
+        </footer>
+    
+        <!-- Inline JS for W3Schools -->
+        <script>
+            function reassureMessage() {
+    alert("I love you more than words can express, I'm here for whenever you wish to talk, I will always wait for you. I love you, Lola 💖");
+}
+
+function showSong() {
+    var songSection = document.getElementById("music-section");
+    if (songSection.style.display === "none") {
+        songSection.style.display = "block";  // Show the song
+    } else {
+        songSection.style.display = "none";   // Hide the song again (if you want it to toggle)
+    }
+}
+        </script>
+    </div>
+</body>
+</html>
